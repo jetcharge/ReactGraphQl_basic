@@ -63,9 +63,9 @@ Now press the `Play` arrow and you should see the following in the response wind
 #### React
 Change into the react folder and type npm start
 
+If things are wokring normally, a new browser tab should open pointing to localhost port 3000, and display `Include your table of data here.`.
 
-
-## Your Challenge (should you choose to accept it)
+## Your Challenge
 
 Modify the react application (in the react subfolder) to use the Apollo GraphQL React Client (https://www.apollographql.com/docs/react/) to load the list of chargers into a table in the front end.
 
@@ -77,9 +77,11 @@ JC0001 | Jetcharge | ChargeMate | 91 Munster Tce, North Melbourne 3051
 JC0827 | Tesla | Wall Connector | 
 WB0019 | Quasar | WallBox | 11-21 Underwood Road, Homebush, 2140
 
+and be placed where the text `Include your table of data here.` is now placed.
+
 ### Any Hints?
 
-This task explores only a small percentage of the functionality of Apollo's React Client. You need to be looking at the useQuery hook only.
+This task explores only a small percentage of the functionality of Apollo's React Client. You need to be looking at the useQuery hook, and the other parts you need to get that working, only.
 
 ## Then What ?
 After completing this challenge, please zip up the resulting folder and provide it back to JetCharge.
