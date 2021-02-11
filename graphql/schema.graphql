@@ -1,0 +1,15 @@
+enum ChargerStatus {
+  CHARGING
+  AVAILABLE
+  RESERVED
+  SUSPENDED
+}
+type Charger {
+  identity: String!
+  manufacturer: String!
+  model: String!
+  address: String
+}
+type Query {
+  chargers: [Charger]
+}
