@@ -8,7 +8,7 @@ JetCharge uese this repo to asses the skill level of potential employees in the 
 Your local machine must have nodeJS installed.
 
 * How to Install
-After cloning the repo locally, change into the Technical_Challenge folder and run npm install.
+After cloning the repo locally, change into the technical-challenge folder and run npm install.
 
 * How to Start the Program
 There are two separate processes that need to run locally on your machine:
