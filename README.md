@@ -1,29 +1,21 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+JetCharge uese this repo to asses the skill level of potential employees in the React and GraphQL space.
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Pre Requisites
+Your local machine must have nodeJS installed.
 
-### Contribution guidelines ###
+* How to Install
+After cloning the repo locally, change into the Technical_Challenge folder and run npm install.
 
-* Writing tests
-* Code review
-* Other guidelines
+* How to Start the Program
+There are two separate processes that need to run locally on your machine:
+1. GraphQL
+Change into the graphql sub folder and type node graphql.js
+1. React
+Change into the react folder and type npm start
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+### Then What ? ###
+After completing this challenge, please zip up the resulting folder and provide it back to JetCharge.
