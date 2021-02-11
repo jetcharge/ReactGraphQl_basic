@@ -14,8 +14,9 @@ Your local machine must have nodeJS installed.
 
 ### How to Start the Program
 There are two separate processes that need to run locally on your machine. You can run them from separate terminals:
+
 #### GraphQL
-Change into the graphql sub folder and type `nodemon graphql.js`. This executes the graphql.js file, and monitors it for any changes, reloading the graphql server when any files in this folder change.
+Change into the graphql sub folder and type `node graphql.js`. 
 
 To verify GraphQL works, visit localhost:4000 in your browser. If it is installed and working you will see a window titled `Playground - ...`.
 
@@ -82,6 +83,18 @@ and be placed where the text `Include your table of data here.` is now placed.
 ### Any Hints?
 
 This task explores only a small percentage of the functionality of Apollo's React Client. You need to be looking at the useQuery hook, and the other parts you need to get that working, only.
+
+## What Is JetCharge Looking For
+
+### Demonstrate Composition
+
+Demonstrate that you understand React is about creating small, reusable, flexible components.
+
+One way to show this would be to use different components to 1) load; and 2) render; the data. (Load the data from the useQuery hook, then pass this data to a component responsible for rendering it).
+
+### Use ant.design or another front end library
+
+We think it is preferable to use a 3rd party open source library to format your components. We use ant.design (and other bits from other libraries), but if you want to use another one you are familiar with, feel free.
 
 ## Then What ?
 After completing this challenge, please zip up the resulting folder and provide it back to JetCharge.
